@@ -7,11 +7,7 @@ Steps to Setup & Run
 
 Setup
 -----
-`npm i -D jasmine nyc ts-node typescript protractor`
-
-`npm i -D @types/jasmine`
-
-`npm i -g webdriver-manager`
+`npm install`
 
 
 Run
@@ -20,4 +16,4 @@ Run
 
 `webdriver-manager start`
 
-`npm run proc`
+`npm run test`
