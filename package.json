@@ -1,0 +1,31 @@
+{
+  "name": "helloprotractor",
+  "version": "1.0.0",
+  "description": "Basic Test Framework with Protractor-Jasmine-TypeScript-NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor protractor.conf.js"
+  },
+  "keywords": [
+    "protractor",
+    "jasmine",
+    "typescript",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jasmine": "^3.5.14",
+    "jasmine": "^3.6.1",
+    "jasmine-spec-reporter": "^7.0.0",
+    "nyc": "^15.1.0",
+    "promise": "^8.1.0",
+    "protractor": "^7.0.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@types/node": "^14.14.41",
+    "exceljs": "^4.2.1"
+  }
+}
